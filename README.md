@@ -48,6 +48,6 @@ For example, I run the update every 30 minutes. This way, I am never more than 3
 Here is an example line in a crontab file:
 
 ```
-*/30 * * * * python ~/path_of_project/PublicIP.py
+*/30 * * * * python /path_of_project/PublicIP.py
 ```
 
