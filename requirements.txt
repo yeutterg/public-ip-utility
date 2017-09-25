@@ -1,0 +1,4 @@
+gspread  
+getip2
+oauth2client
+PyOpenSSL
