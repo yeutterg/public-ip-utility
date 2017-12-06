@@ -4,8 +4,6 @@ A simple utility to update a public IP address on Google Sheets. This is useful 
 
 By Greg Yeutter
 
-2017-09-25
-
 # Requirements
 
 * Python 2.7 or 3.X
