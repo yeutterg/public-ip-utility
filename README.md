@@ -8,7 +8,7 @@ By Greg Yeutter
 
 # Requirements
 
-* Python 2.7 (should also work on 3.X, although I haven't tested it)
+* Python 2.7 or 3.X
 
 # Set Up
 
@@ -25,9 +25,11 @@ git clone https://github.com/yeutterg/PublicIpUtility.git
 pip install -r requirements.txt
 ```
 
+Alternatively, a Dockerfile is provided for Docker containers.
+
 ### 3. Open Google Sheets and create a new spreadsheet called "Public IP".
 
- Optionally, you can type "Public IP" in cell A1 and "Updated" in cell B1.
+ Optionally, you can type "Public IP" in cell A1 and "Updated UTC" in cell B1.
 
 ### 4. Follow the instructions [at this link](http://gspread.readthedocs.io/en/latest/oauth2.html) to download a credentials JSON file. 
 
